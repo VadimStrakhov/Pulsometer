@@ -1,4 +1,6 @@
 @import 'base/variables';
+@import 'base/animations';
+@import '../../node_modules/animate.css/animate.css';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -9,12 +11,17 @@
     margin: 0 auto;
 }
 
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'blocks/tittles';
+@import 'blocks/titles';
 @import 'blocks/consultation';
 @import 'blocks/_forms';
 @import 'blocks/_carousel';
 @import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
